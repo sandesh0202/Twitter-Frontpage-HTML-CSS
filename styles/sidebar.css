@@ -1,0 +1,156 @@
+.sidebar {
+    padding-left: 70px;
+}
+
+.sidebar-logo {
+    padding-top: 10px;
+}
+
+.logo-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.sidebar-logo-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    align-items: start;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    width: 40px;
+}
+
+.sidebar-logo-button:hover {
+    background-color: rgba(206, 203, 203, 0.2);
+}
+
+
+.sidebar-buttons-container {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    align-items: start;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.sidebar-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    
+}
+
+.sidebar-button:hover {
+    background-color: rgba(206, 203, 203, 0.2);
+    
+}
+
+
+.sidebar-titles {
+    padding-left: 17px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.sidebar-titles-selected {
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+
+.sidebar-post-button-container {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.sidebar-post-button {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar-post-button:hover {
+    background-color: rgb(29, 155, 240, 0.9);
+}
+
+/* General Styles */
+.sidebar-profile-container {
+    padding-top: 30px;
+}
+
+.sidebar-profile {
+    background-color: transparent; /* Simplified */
+    border: none;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add some padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    cursor: pointer; /* Change cursor to pointer for buttons */
+    border-radius: 40px;
+}
+
+.sidebar-profile:hover {
+    background-color: rgba(206, 203, 203, 0.2);
+}
+
+.sidebar-profile-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%; /* Simplified */
+    margin-right: 10px; /* Add some spacing to the right */
+}
+
+.sidebar-outer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1; /* Ensure this div takes available space */
+}
+
+.sidebar-inner1-div {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.sidebar-inner1-div p {
+    margin: 0; /* Remove default margins */
+}
+
+.profile-lock-icon {
+    height: 15px;
+    margin-left: 5px; /* Add some spacing to the left */
+}
+
+.sidebar-inner2-div {
+    display: flex; /* Ensure it's a flex container */
+}
+
+.sidebar-inner2-div p {
+    margin: 0;
+    color: rgb(113, 118, 123); /* Lighter color for the username */
+}
+
+.profile-more-icon {
+    height: 15px;
+    margin-left: auto; /* Push the icon to the right */
+}

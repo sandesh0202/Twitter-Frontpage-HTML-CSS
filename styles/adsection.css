@@ -1,0 +1,222 @@
+.ad {
+    width: 315px;
+    margin-top: 4px;
+    padding-right: 86px;
+}
+
+.search-container {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.search-icon-container {
+    width: 44px;
+    border:none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(32, 35, 39);
+    height: 100%;
+}
+
+.search-icon {
+    color: white;
+    height: 17px;
+    padding-left: 14px;
+    margin-top: 10px;
+}
+
+.search-bar {
+    height: 100%;
+    width: 305px;
+    background-color: rgb(32, 35, 39);
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.subscribe-container {
+    padding-top: 12px;
+
+}
+
+aside {
+    
+    color: white;
+    background-color: black;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:14px;
+    padding-left:14px;
+    border-radius: 14px;
+    border: 1px solid rgb(113, 118, 123);
+}
+
+.subscribe-title {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.subscribe-message {
+    padding-bottom: 0px;
+}
+
+.subscribe-message-container {
+    font-size: 22;
+}
+
+.subscribe-button {
+    background-color: rgb(29, 161, 242);
+    border-style: none;
+    font-weight: 600;
+    color: white;
+    padding: 8px 15px; /* Combined padding properties */
+    border-radius: 20px; /* Applied border-radius to all sides */
+}
+
+.live-content {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    
+}
+
+.live-content-title {
+    color: black;
+    background-color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:14px;
+    padding-left:14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.outer-div {
+    padding-top: 15px;
+
+    background-color: black;
+    color: white;
+}
+
+.inner-div {
+    border: 1px solid rgb(113, 118, 123);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+.title-div {
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.profile-section1 {
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+}
+
+.profile-section2 {
+    margin: 10px;
+    
+    height: 140px; /* Set the height */
+    display: flex;
+    flex-direction: column; /* Ensure profiles stack vertically */
+    justify-content: space-between; /* Distribute profiles evenly */
+}
+
+.profile-name {
+    margin-right: 5px;
+    color: white;
+}
+
+.blue-tick {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.hosting-text {
+    font-weight: normal; /* Ensures "is hosting" is not bold */
+}
+
+.statement-section {
+    margin-top: 10px;
+    display: flex; /* Set flow direction to row */
+    flex-direction: row; /* Set flow direction to row */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items evenly along the row */
+}
+
+.statement {
+    font-size: 14px;
+    color: white;
+    flex-grow: 1; /* Allow the statement to grow to fill available space */
+}
+
+.comment {
+    border: 2px solid rgb(250, 0, 150);
+    border-radius: 30px; /* Set border-radius to 30px */
+    padding: 5px;
+    display: flex;
+    flex-direction: row; /* Set flow direction to row */
+    align-items: center; /* Align items vertically */
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+}
+
+.comment > span {
+    margin-right: 5px; /* Add spacing between the two spans */
+}
+
+.ads-profile-image {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%; /* Simplified */
+    margin-right: 10px; /* Add some spacing to the right */
+
+}
+
+.live-on-image {
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.button-image {
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+.extra-space {
+    height: 200px;
+}
+
+.follow-button {
+    border-radius: 30px;
+    height: 100%;
+    width: 78px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 200;
+}

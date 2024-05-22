@@ -1,0 +1,255 @@
+/* General Styles */
+main {
+    max-width: 540px;
+    border: 1px solid rgb(47, 51, 54);
+    margin: 0 auto; /* Center the main container */
+}
+
+nav {
+    height: 51px; /* Corrected height value */
+    display: grid;
+    grid-template-columns: 1fr 1fr 40px;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    justify-items: center; /* Center items horizontally */
+    width: 100%;
+}
+
+.nav-selected {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    color: white; /* Text color for selected */
+    border: none;
+    position: relative; /* Needed for underline positioning */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+}
+
+.nav-unselected {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    background: none;
+    color: #fff; /* Text color for selected */
+    border: none;
+    position: relative; /* Needed for underline positioning */
+    text-decoration: none; /* Remove underline from links */
+    
+}
+
+.nav-selected:hover {
+    background-color: rgba(206, 203, 203, 0.2);
+}
+
+.nav-unselected:hover {
+    background-color: rgba(206, 203, 203, 0.2);
+}
+
+.underline {
+    width: 60px;
+    margin-left: 95px;
+    height: 4px;
+    border-radius: 40px;
+    background-color: #3e94eb; /* Underline color */
+    position: absolute;
+    bottom: 0; /* Positioned just below the nav-selected container */
+    left: 0;
+    visibility: visible; /* Hidden by default */
+}
+
+
+
+.tab-text1 {
+    margin-bottom: 1em; /* Space between text and underline */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15.5px;
+    color: white; /* Default text color */
+}
+
+.tab-text2 {
+    margin-bottom: 1em; /* Space between text and underline */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15.5px;
+    color: rgb(113, 118, 123); /* Default text color */
+}
+
+.timeline-settings-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+.timeline-settings-container:hover {
+    background-color: rgba(206, 203, 203, 0.2);
+}
+
+.timeline-settings {
+    margin : 10px;
+    padding: 7px;
+    border-radius: 100%;
+    height: 17.07px;
+}
+
+.tweet-settings-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Tweet Styles */
+.tweet-cell {
+    display: flex;
+    height: 100px;
+    border-top: 1px solid rgb(47, 51, 54);
+
+    padding-bottom: 10px;
+}
+
+.profile-section {
+    padding: 8px;
+}
+
+.write-tweet {
+    display: flex;
+    flex-direction: column;
+    width: 810px;
+}
+
+.tweet-container {
+    height: 120px;
+}
+
+.tweet-it {
+    padding-top: 10px;
+    font-size: 17px;
+    color: rgb(113, 118, 123);
+}
+
+.profile-image {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.edit-tweet {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.edit-options {
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.post-icons {
+    height: 18px;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+.post-icons:hover {
+    background-color: rgba(62, 148, 235, 0.1);
+}
+
+.post-button-container {
+    padding-left: 200px;
+}
+
+.post-button {
+    background-color: rgb(29, 161, 242);
+    border: none;
+    font-weight: 600;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+/* Post Styles */
+.post-container {
+    display: flex;
+    border: 1px solid rgb(47, 51, 54);
+    
+}
+
+.post-creator-info {
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.post-content {
+    padding-top: 10px;
+}
+
+.post-details {
+    display: flex;
+    align-items: center;
+}
+
+.name-title {
+    padding-right: 2px;
+    font-weight: 500;
+}
+
+.bluetick {
+    height: 18px;
+}
+
+.post-tag {
+    color: rgb(113, 118, 123);
+}
+
+.post-more {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+
+.post-tweeted {
+    font-size: 14px;
+    margin: 0;
+    color: rgb(219, 221, 222);
+    line-height: calc(1em + 2px); /* This adds a 1px gap between lines */
+}
+
+.post-tweet-options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) 20px;
+    align-items: center;
+}
+
+.post-tweet-options-container {
+    display: flex;
+    align-items: center;
+}
+
+.post-tweet-options-image {
+    height: 16px;
+    padding-right: 3px;
+}
+
+.post-tweet-options-image-last1 {
+    height: 16px;
+    padding-left: 42px;
+    padding-right: 10px;
+}
+
+.post-tweet-options-text {
+    font-size: 12px;
+    color: rgb(113, 118, 123);
+}
